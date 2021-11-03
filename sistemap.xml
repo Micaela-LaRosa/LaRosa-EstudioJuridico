@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sistemaps.org/schemas/sistemap/0.9">
+    <url>
+        <loc>http://127.0.0.1:5500/index.html/</loc>
+        <lastmod>2019-08-21T16:12:20+05:08</lastmod>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:5500/areas.html#derechoLaboral</loc>
+        <lastmod>2021-10-31</lastmod>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:5500/areas.html#accidentesTransito</loc>
+        <lastmod>2021-10-31</lastmod>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:5500/areas.html#sucesiones</loc>
+        <lastmod>2021-10-31</lastmod>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:5500/empresas.html</loc>
+        <lastmod>2021-10-31</lastmod>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:5500/oficina.html</loc>
+        <lastmod>2021-10-31</lastmod>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:5500/contacto.html</loc>
+        <lastmod>2021-10-31</lastmod>
+    </url>
+</urlset>

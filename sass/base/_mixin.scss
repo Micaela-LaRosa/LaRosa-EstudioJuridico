@@ -1,0 +1,22 @@
+@mixin tarjeta ($ancho, $alto, $margenSuperior){
+    width: $ancho;
+    height: $alto;
+    margin-top: $margenSuperior;
+}
+
+@mixin videoLegal ($ancho, $Ptop, $pBottom){
+    width: $ancho;
+    padding-top: $Ptop;
+    padding-bottom: $pBottom;
+}
+
+@mixin iconosFooter ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+
+
+
+
+

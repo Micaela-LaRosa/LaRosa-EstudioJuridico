@@ -1,0 +1,44 @@
+/*Variables*/
+
+$fuenteTitulos:'Roboto Slab', sans-serif;
+$fuenteModal: 'Roboto Mono', monospace;
+
+/*Maps*/
+
+$tamañosTexto:(
+    tituloPrincipal: 1.3em,
+    tituloSecundario: 1.03em,
+    tituloTerciario: 1em,
+    parrafos: 0.85em,
+    tabla: 0.85em,
+    formulario: 0.8em,
+    piePagina: 0.75em,
+    botonAvisoLegal: 1em,
+    barraNav: 0.8em,
+    submenu: 1em,
+    detallesForm: 0.9em,
+    especialidad: 0.9em,
+    iconosPie: 1.3em,
+    modal: 0.8em,
+    error: 1.8em
+);
+
+$coloresTexto:(
+    cTituloPrincipal: #5730a3,
+    cTituloSecundario: #60219e,
+    cTituloTerciario: #7649a3,
+    cParrafos: #a3307d,
+    cTabla: #5a0b49,
+    cFormulario: #fff8dc,
+    cPiePagina: #fff8dc,
+    cBarraNav: #5730a3,
+    cHover: #a3307d,
+    cTarjeta: #a3307d
+);
+
+/*lista*/
+
+$fondos:
+    #fff8dc,
+    #feff75;
+

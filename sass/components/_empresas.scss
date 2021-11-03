@@ -1,0 +1,16 @@
+.section__listaEmpresa {
+	font-size: map-get($tamañosTexto, parrafos);
+	color: map-get($coloresTexto, cParrafos);
+}
+
+@media only screen and (min-width: 768px) {
+	.section__listaEmpresa {
+		line-height: 2.2em;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.section__listaEmpresa {
+		line-height: 2.2em;
+	}
+}
