@@ -16,7 +16,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="./css/main.css">
-        <title>SULET Abogados | Tu primer consulta ES gratis</title>
+        <title>SULET Abogados | Especialistas en asesoramiento empresarial</title>
     </head>
     <body>
         <header class="container-fluid p-0 m-0">
@@ -45,27 +45,29 @@
                                     <a class="nav-link" href="index.html">Institucional</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="areas.html" role="button" data-bs-toggle="dropdown">Areas de Practica</a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a class="dropdown-item fw-bold" href="areas.html#derechoLaboral">Derecho Laboral</a> 
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item fw-bold" href="areas.html#accidentesTransito">Accidentes de Tránsito</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item fw-bold" href="areas.html#sucesiones">Sucesiones</a>
-                                        </li>
-                                    </ul>
+                                    <a class="nav-link dropdown-toggle" href="./pages/areas.html" role="button" data-bs-toggle="dropdown">Areas de Practica</a>
+                                    <ul>
+                            <li><a href="index.html">Institucional</a></li>
+                            <li><a href="./pages/areas.html">Areas de Practica</a>
+                                <ul>
+                                    <li><a href="./pages/areas.html#derechoLaboral">Derecho Laboral</a></li>
+                                    <li><a href="./pages/areas.html#accidentesTransito">Accidentes de Transito</a></li>
+                                    <li><a href="./pages/areas.html#sucesiones">Sucesiones</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./pages/empresas.html">Consultoria Empresarial</a></li>
+                            <li><a href="./pages/oficina.html">Nuestras Oficinas</a></li>
+                            <li><a href="./pages/contacto.html">Contactenos</a></li>
+                        </ul>
                                 </li>
                                 <li class="nav-item"> 
-                                    <a class="nav-link" href="empresas.html">Consultoria Empresarial</a>
+                                    <a class="nav-link" href="./pages/empresas.html">Consultoria Empresarial</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="oficina.html">Nuestras Oficinas</a>
+                                    <a class="nav-link" href="./pages/oficina.html">Nuestras Oficinas</a>
                                 </li> 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contacto.html">Contáctenos</a>
+                                    <a class="nav-link" href="./pages/contacto.html">Contáctenos</a>
                                 </li> 
                             </ul>   
                         </div> 
@@ -73,62 +75,78 @@
                 </div>
             </div>    
         </header>
-        <main class="conteiner-fluid m-0 p-0">
-            <h2 class="tipoLetra text-center py-3 mb-4 text-decoration-underline">Formulario de contacto:</h2>
-            <form class="main__form row g-3 m-auto mb-5">
-                <div class="col-6">
-                    <label for="nombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" style="height: 30px;">
-                </div>
-                <div class="col-6">
-                    <label for="apellido" class="form-label">Apellido</label>
-                    <input type="text" class="form-control" id="apellido" style="height: 30px;">
-                </div>
-                <div class="col-6 col-md-12">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="email@server.com" style="height: 30px;">
-                </div>
-                <div class="col-6 col-md-12">
-                    <label for="telefono" class="form-label">Telefono</label>
-                    <input type="tel" class="form-control" id="telefono" placeholder="(011)-(telefono)" style="height: 30px;">
-                </div>
-                    <div class="col-md-7">
-                    <label for="localidad" class="form-label">Localidad</label>
-                    <input type="text" class="form-control" id="localidad" style="height: 30px;">
-                </div>
-                <div class="col-md-5">
-                    <label for="especialidad" class="form-label">Especialidad</label>
-                    <select id="especialidad" class="form-select" style="height: 30px;">
-                        <option selected>Derecho Laboral</option>
-                        <option>Accidentes de Tránsito</option>
-                        <option>Sucesiones</option>
-                    </select>
-                </div>
-                <div class="col-md-12">
-                    <label for="consulta">Consulta:</label>
-                    <textarea name="consulta" id="consulta" class="form-control"></textarea>
-                </div>
+        <main class="conteiner-fluid m-0-p-0">
+            <div class="row">
                 <div class="col-12">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            Acepto brindar Información personal
-                        </label>
-                    </div>
+                    <img class="main__banner rounded pb-10 img-fluid" alt="banner curva empresarial" src="./imagenes/empresa.jpg">
                 </div>
-                <div class="col-12">
-                    <button type="submit" class="boton btn btn-primary m-2">Enviar</button>
-                    <button type="reset" class="boton btn btn-primary">Limpiar formulario</button>
-                </div>
-            </form>
+            </div>
             <section class="row">
-                <p class=" col-12 text-center fw-bold mb-5">
-                    También Podes comunicarte con nosotros al 011 6601-0112
-                    <i class="fab fa-whatsapp"></i>
-                </p>
+                <div class="col-12">
+                    <h2 class="tipoLetra mx-4 my-3 text-decoration-underline">Información para empresas</h2>
+                    <p class="mx-4 my-1">
+                        SULET Estudio Jurídico Nuestro estudio brinda un asesoramiento legal integral y preventivo a empresas, cubriendo las necesidades que hacen al funcionamiento diario. En este sentido nuestros abogados se encuentran avocados a soluciones rápidas e inmediatas ante cualquier contingencia jurídica que se le presente a la empresa.
+                        Asimismo, nuestros abogados participan de las reunioneDerecho Empresarials de directorio de la empresa, emitiendo dictámenes y recomendaciones legales, brindando de esta manera, las herramientas necesarias a los directivos para la toma de decisiones.
+                    </p>
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-12"> 
+                    <ul class="section__listaEmpresa mx-4 my-1 lh-20 list-unstyled">
+                        <li class="list-inline-item">
+                            Nuestro asesoramiento en materia de derecho societario incluye:
+                        </li>
+                        <li>
+                            Reforma de Estatutos y Contratos Constitutivos: cambio de objeto social, etc.;
+                        </li>
+                        <li>
+                            Cambio de Objeto Societario;
+                        </li>
+                        <li>
+                            Cambio de Jurisdicción;
+                        </li>
+                        <li>
+                            Reglamentos Internos; etc.
+                        </li>
+                    </ul>
+                </div>    
+            </section>
+            <section class="row">
+                <div>
+                    <h3 class="tipoLetra mx-4 my-3">Abonos</h3>
+                    <table class="table table-responsive table-hover mx-4 py-3">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Tiempo</th>
+                                <th scope="col">Profesionales disponiles</th>
+                                <th scope="col">Escribano</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1)</th>
+                                <td>1 año</td>
+                                <td>1 profesional abogado</td>
+                                <td>NO</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2)</th>
+                                <td>2 años</td>
+                                <td>3 profesionales abogados (equipo)</td>
+                                <td rowspan="2">SI</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3)</th>
+                                <td>3 años</td>
+                                <td>5 profesionales abogados (equipo)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>    
             </section>
         </main>
-        <div class="conteiner fluid m-0 p-0">
+        <div class="conteiner-fluid m-0 p-0">
             <div class="row">
                 <footer class="bg-light text-center text-white">
                     <div class="row">
@@ -136,16 +154,16 @@
                             <h4 class="fw-bold mt-3">NUESTRAS SECCIONES</h4>
                             <ul>
                                 <li><a href="index.html">Institucional</a></li>
-                                <li><a href="areas.html">Areas de Practica</a>
+                                <li><a href="./pages/areas.html">Areas de Practica</a>
                                     <ul>
-                                        <li><a href="areas.html#derechoLaboral">Derecho Laboral</a></li>
-                                        <li><a href="areas.html#accidentesTransito">Accidentes de Transito</a></li>
-                                        <li><a href="areas.html#sucesiones">Sucesiones</a></li>
+                                        <li><a href="./pages/areas.html#derechoLaboral">Derecho Laboral</a></li>
+                                        <li><a href="./pages/areas.html#accidentesTransito">Accidentes de Transito</a></li>
+                                        <li><a href="./pages/areas.html#sucesiones">Sucesiones</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="empresas.html">Consultoria Empresarial</a></li>
-                                <li><a href="oficina.html">Nuestras Oficinas</a></li>
-                                <li><a href="contacto.html">Contactenos</a></li>
+                                <li><a href="./pages/empresas.html">Consultoria Empresarial</a></li>
+                                <li><a href="./pages/oficina.html">Nuestras Oficinas</a></li>
+                                <li><a href="./pages/contacto.html">Contactenos</a></li>
                             </ul>
                         </div>
                         <div class="col-2 mt-3">

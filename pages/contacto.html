@@ -16,7 +16,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="./css/main.css">
-        <title>SULET Abogados | Confiabilidad y eficiencia nos caracterizan</title>
+        <title>SULET Abogados | Tu primer consulta ES gratis</title>
     </head>
     <body>
         <header class="container-fluid p-0 m-0">
@@ -42,30 +42,30 @@
                         <div id="menuNav" class="collapse navbar-collapse">
                             <ul class="navbar-nav m-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.html" title="acceso al homepage del sitio web">Institucional</a>
+                                    <a class="nav-link" href="index.html">Institucional</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="areas.html" role="button" data-bs-toggle="dropdown" title="opciones de areas de practica">Areas de Practica</a>
+                                    <a class="nav-link dropdown-toggle" href="./pages/areas.html" role="button" data-bs-toggle="dropdown">Areas de Practica</a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item fw-bold" href="areas.html#derechoLaboral" title="acceso a la seccion derecho laboral">Derecho Laboral</a> 
+                                            <a class="dropdown-item fw-bold" href="./pages/areas.html#derechoLaboral">Derecho Laboral</a> 
                                         </li>
                                         <li>
-                                            <a class="dropdown-item fw-bold" href="areas.html#accidentesTransito" title="acceso a la seccion accidentes de transito">Accidentes de Tránsito</a>
+                                            <a class="dropdown-item fw-bold" href="./pages/areas.html#accidentesTransito">Accidentes de Tránsito</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item fw-bold" href="areas.html#sucesiones" title="acceso a la seccion sucesiones">Sucesiones</a>
+                                            <a class="dropdown-item fw-bold" href="./pages/areas.html#sucesiones">Sucesiones</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"> 
-                                    <a class="nav-link" href="empresas.html" title="acceso a la pagina para empresas">Consultoria Empresarial</a>
+                                    <a class="nav-link" href="./pages/empresas.html">Consultoria Empresarial</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="oficina.html" title="acceso a la pagina nuestras oficinas">Nuestras Oficinas</a>
+                                    <a class="nav-link" href="./pages/oficina.html">Nuestras Oficinas</a>
                                 </li> 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contacto.html" title="acceso a la pagina de contacto">Contáctenos</a>
+                                    <a class="nav-link" href="./pages/contacto.html">Contáctenos</a>
                                 </li> 
                             </ul>   
                         </div> 
@@ -74,54 +74,59 @@
             </div>    
         </header>
         <main class="conteiner-fluid m-0 p-0">
-            <section class="row">
+            <h2 class="tipoLetra text-center py-3 mb-4 text-decoration-underline">Formulario de contacto:</h2>
+            <form class="main__form row g-3 m-auto mb-5">
+                <div class="col-6">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" style="height: 30px;">
+                </div>
+                <div class="col-6">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" style="height: 30px;">
+                </div>
+                <div class="col-6 col-md-12">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="email@server.com" style="height: 30px;">
+                </div>
+                <div class="col-6 col-md-12">
+                    <label for="telefono" class="form-label">Telefono</label>
+                    <input type="tel" class="form-control" id="telefono" placeholder="(011)-(telefono)" style="height: 30px;">
+                </div>
+                    <div class="col-md-7">
+                    <label for="localidad" class="form-label">Localidad</label>
+                    <input type="text" class="form-control" id="localidad" style="height: 30px;">
+                </div>
+                <div class="col-md-5">
+                    <label for="especialidad" class="form-label">Especialidad</label>
+                    <select id="especialidad" class="form-select" style="height: 30px;">
+                        <option selected>Derecho Laboral</option>
+                        <option>Accidentes de Tránsito</option>
+                        <option>Sucesiones</option>
+                    </select>
+                </div>
+                <div class="col-md-12">
+                    <label for="consulta">Consulta:</label>
+                    <textarea name="consulta" id="consulta" class="form-control"></textarea>
+                </div>
                 <div class="col-12">
-                    <h2 class="tipoLetra mx-4 text-decoration-underline text-center">¿Cómo llego a SULET Abogados?</h2>
-                    <p class="px-4 py-3">
-                        Nuestras Oficinas en CABA se encuentran ubicadas en la calle  Av. de Mayo 1316 - Ciudad Autónoma de Buenos Aires, República Argentina (CP C1085), en pleno centro de la Capital Federal, zona Tribunales, a metros de la Estación Uruguay de la Línea B de Subte.
-                    </p>
-                    <div class="d-flex justify-content-center">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.788458006614!2d-58.387212784892135!3d-34.60951038045797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbe3f3d9b5bf%3A0x7673288c64507df7!2sSULET%20Abogados!5e0!3m2!1ses-419!2sar!4v1632524967241!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Acepto brindar Información personal
+                        </label>
                     </div>
-                    <p class="px-4 py-3 fw-bold text-center"> 
-                        <i class="far fa-handshake"></i>
-                        Horarios: Lunes a Viernes de 10 a 18hs.
-                        Los esperamos con el mejor asesoramiento y un rico café para acompañar el momento!!!
-                    </p>
                 </div>
-            </section>
+                <div class="col-12">
+                    <button type="submit" class="boton btn btn-primary m-2">Enviar</button>
+                    <button type="reset" class="boton btn btn-primary">Limpiar formulario</button>
+                </div>
+            </form>
             <section class="row">
-                <div id="carouselExampleControls" class="col-12 carousel slide mb-4" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./imagenes/estudio1.jpg" class="d-block" loading="lazy" alt="foto estudio juridico 1">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./imagenes/estudio2.jpg" class="d-block" loading="lazy" alt="foto estudio juridico 2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./imagenes/estudio3.jpg" class="d-block" loading="lazy" alt="foto estudio juridico 3">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./imagenes/estudio4.jpg" class="d-block" loading="lazy" alt="foto estudio juridico 4">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./imagenes/estudio5.jpg" class="d-block" loading="lazy" alt="foto estudio juridico 5">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./imagenes/estudio6.jpg" class="d-block" loading="lazy" alt="foto estuio juridico 6">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </section> 
+                <p class=" col-12 text-center fw-bold mb-5">
+                    También Podes comunicarte con nosotros al 011 6601-0112
+                    <i class="fab fa-whatsapp"></i>
+                </p>
+            </section>
         </main>
         <div class="conteiner fluid m-0 p-0">
             <div class="row">
@@ -131,16 +136,16 @@
                             <h4 class="fw-bold mt-3">NUESTRAS SECCIONES</h4>
                             <ul>
                                 <li><a href="index.html">Institucional</a></li>
-                                <li><a href="areas.html">Areas de Practica</a>
+                                <li><a href="./pages/areas.html">Areas de Practica</a>
                                     <ul>
-                                        <li><a href="areas.html#derechoLaboral">Derecho Laboral</a></li>
-                                        <li><a href="areas.html#accidentesTransito">Accidentes de Transito</a></li>
-                                        <li><a href="areas.html#sucesiones">Sucesiones</a></li>
+                                        <li><a href="./pages/areas.html#derechoLaboral">Derecho Laboral</a></li>
+                                        <li><a href="./pages/areas.html#accidentesTransito">Accidentes de Transito</a></li>
+                                        <li><a href="./pages/areas.html#sucesiones">Sucesiones</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="empresas.html">Consultoria Empresarial</a></li>
-                                <li><a href="oficina.html">Nuestras Oficinas</a></li>
-                                <li><a href="contacto.html">Contactenos</a></li>
+                                <li><a href="./pages/empresas.html">Consultoria Empresarial</a></li>
+                                <li><a href="./pages/oficina.html">Nuestras Oficinas</a></li>
+                                <li><a href="./pages/contacto.html">Contactenos</a></li>
                             </ul>
                         </div>
                         <div class="col-2 mt-3">
