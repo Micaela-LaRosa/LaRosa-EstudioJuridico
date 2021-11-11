@@ -6,13 +6,13 @@ iframe {
 .carousel {
 	width: auto;
 	margin: auto;
-}
 
-.carousel-inner {
-	>.item {
-		>img {
-			width: auto;
-			margin: auto;
+	.carousel-inner {
+		>.item {
+			>img {
+				width: auto;
+				margin: auto;
+			}
 		}
 	}
 }

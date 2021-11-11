@@ -1,3 +1,9 @@
+.table {
+	width: 90%;
+	font-size: map-get($tamañosTexto, tabla);
+	color: map-get($coloresTexto, cTabla);
+}
+
 .section__listaEmpresa {
 	font-size: map-get($tamañosTexto, parrafos);
 	color: map-get($coloresTexto, cParrafos);

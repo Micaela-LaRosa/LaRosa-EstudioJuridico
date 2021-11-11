@@ -7,23 +7,23 @@
 	box-shadow: 10px 5px 5px grey;
 	background: linear-gradient(to top, #ee82ee, #5a0b49);
 	color: map-get($coloresTexto, cFormulario);
-}
-    
-textarea {
-    width: 24em;
-    height: 7em;
-}
+   
+	textarea {
+    	width: 24em;
+    	height: 7em;
+	}
 
-.form-control {
-    font-size: map-get($tamañosTexto, detallesForm);
-}
+	.form-control {
+    	font-size: map-get($tamañosTexto, detallesForm);
+	}
 
-#especialidad {
-    font-size: map-get($tamañosTexto, especialidad);
-}   
+	#especialidad {
+    	font-size: map-get($tamañosTexto, especialidad);
+	}   
     
-.boton {
-    font-size: map-get($tamañosTexto, detallesForm);
+	.boton {
+    	font-size: map-get($tamañosTexto, detallesForm);
+	}
 }
 
 @media only screen and (min-width: 768px) {

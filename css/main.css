@@ -12,178 +12,154 @@ body {
   word-spacing: 0px;
   width: 100vw;
   overflow-x: hidden; }
-
-h1 {
-  color: #5730a3;
-  font-size: 1.3em;
-  animation: flipInX 5s; }
-
-.header__logo {
-  animation: shakeY 3s; }
-
-.header__logoWs {
-  margin-left: 28em; }
-
-h2 {
-  font-size: 1.03em;
-  color: #60219e; }
-
-h3 {
-  font-size: 1em;
-  color: #7649a3; }
-
-.tipoLetra {
-  font-family: "Roboto Slab", sans-serif; }
-
-p {
-  text-align: justify;
-  color: #a3307d;
-  font-size: 0.85em; }
-
-.navbar {
-  background-color: #fff8dc; }
-  .navbar ul li {
-    padding-left: 2em; }
-    .navbar ul li a {
-      color: #5730a3;
-      font-size: 0.85em; }
-      .navbar ul li a:hover {
-        color: #a3307d;
-        transition: pointer; }
-
-.dropdown-menu {
-  font-size: 1em; }
-
-.mapaSitio {
-  margin-top: 1em; }
-
-h4 {
-  text-align: left;
-  margin-left: 2em;
-  font-size: 1em; }
-
-footer {
-  letter-spacing: 0.2em;
-  color: #fff8dc;
-  font-size: 0.75em;
-  background: radial-gradient(ellipse at bottom, #5a0b49, #feff75); }
-  footer li {
-    margin-left: 2em;
-    text-align: left; }
-    footer li a {
-      text-decoration: none;
-      color: #fff8dc; }
-      footer li a:hover {
-        color: #5730a3; }
-
-.iconosFooter a {
-  display: block;
-  width: 30px;
-  height: 30px; }
-
-.modal-title {
-  display: none; }
-
-.modal-body {
-  color: #000;
-  text-align: justify;
-  font-family: "Roboto Mono", monospace;
-  font-size: 0.8em; }
-
-.avisoLegal {
-  font-size: 1em; }
-
-.botonOk {
-  font-size: 0.8em; }
-
-.table {
-  width: 90%;
-  font-size: 0.85em;
-  color: #5a0b49; }
-
-.card {
-  background: linear-gradient(to right, #fff8dc, #e9d527);
-  border: transparent; }
-
-.card-text {
-  color: #a3307d; }
+  body h1 {
+    color: #5730a3;
+    font-size: 1.3em;
+    animation: flipInX 5s; }
+  body .header__logo {
+    animation: shakeY 3s; }
+  body .header__logoWs {
+    margin-left: 28em; }
+  body h2 {
+    font-size: 1.03em;
+    color: #60219e; }
+  body h3 {
+    font-size: 1em;
+    color: #7649a3; }
+  body .tipoLetra {
+    font-family: "Roboto Slab", sans-serif; }
+  body p {
+    text-align: justify;
+    color: #a3307d;
+    font-size: 0.85em; }
+  body .navbar {
+    background-color: #fff8dc; }
+    body .navbar ul li {
+      padding-left: 2em; }
+      body .navbar ul li a {
+        color: #5730a3;
+        font-size: 0.85em; }
+        body .navbar ul li a:hover {
+          color: #a3307d;
+          transition: pointer; }
+    body .navbar .dropdown-menu {
+      font-size: 1em; }
+  body footer {
+    letter-spacing: 0.2em;
+    color: #fff8dc;
+    font-size: 0.75em;
+    background: radial-gradient(ellipse at bottom, #5a0b49, #feff75); }
+    body footer li {
+      margin-left: 2em;
+      text-align: left; }
+      body footer li a {
+        text-decoration: none;
+        color: #fff8dc; }
+        body footer li a:hover {
+          color: #5730a3; }
+    body footer .mapaSitio {
+      margin-top: 1em; }
+      body footer .mapaSitio h4 {
+        text-align: left;
+        margin-left: 2em;
+        font-size: 1em; }
+    body footer .iconosFooter a {
+      display: block;
+      width: 30px;
+      height: 30px; }
+    body footer .modal-title {
+      display: none; }
+    body footer .modal-body {
+      color: #000;
+      text-align: justify;
+      font-family: "Roboto Mono", monospace;
+      font-size: 0.8em; }
+    body footer .avisoLegal {
+      font-size: 1em; }
+    body footer .botonOk {
+      font-size: 0.8em; }
+  body .card {
+    background: linear-gradient(to right, #fff8dc, #e9d527);
+    border: transparent; }
+    body .card .card-text {
+      color: #a3307d; }
 
 @media only screen and (min-width: 768px) {
   body {
     word-spacing: 2px;
     font-size: 15px; }
-  h1 {
-    padding-top: 1em;
-    padding-left: 1em;
-    letter-spacing: 0.2em; }
-  h2 {
-    margin-top: 1em; }
-  p {
-    line-height: 2em;
-    margin-top: 1em; }
-  .section__videoLegal {
-    width: 80%;
-    padding-top: 0.8em;
-    padding-bottom: 0.8em; }
-  .card {
-    width: 600px;
-    height: 400px;
-    margin-top: 3.5em; }
-  .header__logo {
-    width: 5em;
-    height: 6.5em;
-    padding-top: 20px; }
-  .header__logoWs {
-    width: 7em;
-    margin-left: 41em; }
-  .main__banner {
-    padding-bottom: 1em; }
-  .fab {
-    font-size: 1.3em; }
-  .fas {
-    font-size: 1.3em; }
-  .iconosFooter a {
-    width: 45px;
-    height: 40px; } }
+    body h1 {
+      padding-top: 1em;
+      padding-left: 1em;
+      letter-spacing: 0.2em; }
+    body h2 {
+      margin-top: 1em; }
+    body p {
+      line-height: 2em;
+      margin-top: 1em; }
+    body .section__videoLegal {
+      width: 80%;
+      padding-top: 0.8em;
+      padding-bottom: 0.8em; }
+    body .card {
+      width: 600px;
+      height: 400px;
+      margin-top: 3.5em; }
+    body .header__logo {
+      width: 5em;
+      height: 6.5em;
+      padding-top: 20px; }
+    body .header__logoWs {
+      width: 7em;
+      margin-left: 41em; }
+    body .main__banner {
+      padding-bottom: 1em; }
+    body footer .fab {
+      font-size: 1.3em; }
+    body footer .fas {
+      font-size: 1.3em; }
+    body footer .iconosFooter a {
+      width: 45px;
+      height: 40px; } }
 
 @media only screen and (min-width: 1024px) {
   body {
     word-spacing: 5px;
     font-size: 20px; }
-  h1 {
-    padding-top: 1em;
-    letter-spacing: 0.2em; }
-  p {
-    line-height: 2em;
-    margin-top: 1em; }
-  .section__videoLegal {
-    width: 90%;
-    padding-top: 1em;
-    padding-bottom: 1em; }
-  footer {
-    letter-spacing: 0.2em; }
-  .footer li a {
-    letter-spacing: 8px; }
-  .card {
-    width: 500px;
-    height: 600px;
-    margin-top: 3.3em; }
-  .header__logo {
-    padding-top: 0.5em;
-    width: 6em;
-    height: 6.5em; }
-  .header__logoWs {
-    width: 9em;
-    margin-left: 43em; }
-  .main__banner {
-    padding-bottom: 1em; }
-  .fab {
-    font-size: 1.3em; }
-  .fas {
-    font-size: 1.3em; }
-  .iconosFooter a {
-    width: 47px;
-    height: 42px; } }
+    body h1 {
+      padding-top: 1em;
+      letter-spacing: 0.2em; }
+    body p {
+      line-height: 2em;
+      margin-top: 1em; }
+    body .section__videoLegal {
+      width: 90%;
+      padding-top: 1em;
+      padding-bottom: 1em; }
+    body footer {
+      letter-spacing: 0.2em; }
+      body footer li a {
+        letter-spacing: 8px; }
+      body footer .fab {
+        font-size: 1.3em; }
+      body footer .fas {
+        font-size: 1.3em; }
+      body footer .iconosFooter a {
+        width: 47px;
+        height: 42px; }
+    body .card {
+      width: 500px;
+      height: 600px;
+      margin-top: 3.3em; }
+    body .header__logo {
+      padding-top: 0.5em;
+      width: 6em;
+      height: 6.5em; }
+    body .header__logoWs {
+      width: 9em;
+      margin-left: 43em; }
+    body .main__banner {
+      padding-bottom: 1em; } }
 
 .section__areas {
   animation: slideInLeft 5s; }
@@ -202,23 +178,24 @@ footer {
   box-shadow: 10px 5px 5px grey;
   background: linear-gradient(to top, #ee82ee, #5a0b49);
   color: #fff8dc; }
-
-textarea {
-  width: 24em;
-  height: 7em; }
-
-.form-control {
-  font-size: 0.9em; }
-
-#especialidad {
-  font-size: 0.9em; }
-
-.boton {
-  font-size: 0.9em; }
+  .main__form textarea {
+    width: 24em;
+    height: 7em; }
+  .main__form .form-control {
+    font-size: 0.9em; }
+  .main__form #especialidad {
+    font-size: 0.9em; }
+  .main__form .boton {
+    font-size: 0.9em; }
 
 @media only screen and (min-width: 768px) {
   label {
     display: inline; } }
+
+.table {
+  width: 90%;
+  font-size: 0.85em;
+  color: #5a0b49; }
 
 .section__listaEmpresa {
   font-size: 0.85em;
@@ -239,10 +216,9 @@ iframe {
 .carousel {
   width: auto;
   margin: auto; }
-
-.carousel-inner > .item > img {
-  width: auto;
-  margin: auto; }
+  .carousel .carousel-inner > .item > img {
+    width: auto;
+    margin: auto; }
 
 @media only screen and (min-width: 1024px) {
   iframe {
@@ -256,21 +232,18 @@ iframe {
   background-color: white;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   border-radius: 5px; }
-
-.tituloError {
-  color: black;
-  animation: flash 10s;
-  font-size: 1.8em; }
-
-.imgError {
-  animation: heartBeat 12s; }
-
-.botonError {
-  color: #f5c6ed;
-  text-decoration: none;
-  letter-spacing: 2px; }
-  .botonError:hover {
-    color: #e66fd2; }
+  .conteiner-404 .tituloError {
+    color: black;
+    animation: flash 10s;
+    font-size: 1.8em; }
+  .conteiner-404 .imgError {
+    animation: heartBeat 12s; }
+  .conteiner-404 .botonError {
+    color: #f5c6ed;
+    text-decoration: none;
+    letter-spacing: 2px; }
+    .conteiner-404 .botonError:hover {
+      color: #e66fd2; }
 
 @media only screen and (min-width: 1024px) {
   .imgError {

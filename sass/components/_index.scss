@@ -10,176 +10,169 @@ body {
 	word-spacing: 0px;
 	width: 100vw;
 	overflow-x: hidden;
-}
 
-h1 {
-	color: map-get($coloresTexto, cTituloPrincipal);
-	font-size: map-get($tamañosTexto, tituloPrincipal);
-	animation: flipInX 5s;
-}
+	h1 {
+		color: map-get($coloresTexto, cTituloPrincipal);
+		font-size: map-get($tamañosTexto, tituloPrincipal);
+		animation: flipInX 5s;
+	}
 
-.header__logo {
-	animation: shakeY 3s;
-}
+	.header__logo {
+		animation: shakeY 3s;
+	}
 
-.header__logoWs {
-	margin-left: 28em;
-}
+	.header__logoWs {
+		margin-left: 28em;
+	}
 
-h2 {
-	font-size: map-get($tamañosTexto, tituloSecundario);
-	color: map-get($coloresTexto, cTituloSecundario);
-}
+	h2 {
+		font-size: map-get($tamañosTexto, tituloSecundario);
+		color: map-get($coloresTexto, cTituloSecundario);
+	}
 
-h3 {
-	font-size: map-get($tamañosTexto, tituloTerciario);
-	color: map-get($coloresTexto, cTituloTerciario);
-}
+	h3 {
+		font-size: map-get($tamañosTexto, tituloTerciario);
+		color: map-get($coloresTexto, cTituloTerciario);
+	}
 
-.tipoLetra {
-	font-family: $fuenteTitulos;
-}
+	.tipoLetra {
+		font-family: $fuenteTitulos;
+	}
 
-p {
+	p {
 	text-align: justify;
 	color: map-get($coloresTexto, cParrafos);
 	font-size: map-get($tamañosTexto, parrafos);
-}
+	}
 
-.navbar {
-	background-color: nth($fondos, 1);
-	ul {
-		li {
-			padding-left: 2em;
-			a {
-				color: map-get($coloresTexto, cBarraNav);
-				font-size: map-get($tamañosTexto, parrafos);
-				&:hover {
-					color: map-get($coloresTexto, cHover);
-					transition: pointer;
+	.navbar {
+		background-color: nth($fondos, 1);
+		ul {
+			li {
+				padding-left: 2em;
+				a {
+					color: map-get($coloresTexto, cBarraNav);
+					font-size: map-get($tamañosTexto, parrafos);
+					&:hover {
+						color: map-get($coloresTexto, cHover);
+						transition: pointer;
+					}
 				}
 			}
 		}
+		.dropdown-menu {
+			font-size: map-get($tamañosTexto, submenu);
+		}	
 	}
-}
-
-.dropdown-menu {
-	font-size: map-get($tamañosTexto, submenu);
-}
-
-.mapaSitio{
-	margin-top: 1em;
-}
-
-h4{
-	text-align: left;
-	margin-left: 2em;
-	font-size: 1em;
-}
-
-footer {
-	letter-spacing: 0.2em;
-	color: map-get($coloresTexto, cPiePagina);
-	font-size: map-get($tamañosTexto, piePagina);
-	background: radial-gradient(ellipse at bottom, #5a0b49, #feff75);
-	li{
-		margin-left: 2em;
-		text-align: left;
-		a{
-			text-decoration: none;
-			color: map-get($coloresTexto, cPiePagina);
-			&:hover{
-				color: #5730a3;
+	footer {
+		letter-spacing: 0.2em;
+		color: map-get($coloresTexto, cPiePagina);
+		font-size: map-get($tamañosTexto, piePagina);
+		background: radial-gradient(ellipse at bottom, #5a0b49, #feff75);
+		li{
+			margin-left: 2em;
+			text-align: left;
+			a{
+				text-decoration: none;
+				color: map-get($coloresTexto, cPiePagina);
+				&:hover{
+					color: #5730a3;
+				}
 			}
+		}	
+		.mapaSitio{
+		margin-top: 1em;
+
+			h4{
+			text-align: left;
+			margin-left: 2em;
+			font-size: 1em;
+			}
+		}	
+
+		.iconosFooter{
+			a{
+				display: block;
+				@include iconosFooter(30px, 30px);
+			}
+		}	
+
+		.modal-title{
+			display: none;
+		}
+
+		.modal-body {
+			color: #000;
+			text-align: justify;
+			font-family: $fuenteModal;
+			font-size: map-get($tamañosTexto, modal);
+		}
+
+		.avisoLegal {
+			font-size: map-get($tamañosTexto, botonAvisoLegal);
+		}
+
+		.botonOk {
+			font-size: map-get($tamañosTexto, modal);
+		}
+	}
+
+	.card {
+		background: linear-gradient(to right, #fff8dc, #e9d527);
+		border: transparent;
+
+		.card-text {
+			color: map-get($coloresTexto, cTarjeta);
 		}
 	}	
-}
-
-.iconosFooter{
-	a{
-		display: block;
-		@include iconosFooter(30px, 30px);
-	}
-}	
-
-.modal-title{
-	display: none;
-}
-
-.modal-body {
-	color: #000;
-	text-align: justify;
-	font-family: $fuenteModal;
-	font-size: map-get($tamañosTexto, modal);
-}
-
-.avisoLegal {
-	font-size: map-get($tamañosTexto, botonAvisoLegal);
-}
-
-.botonOk {
-	font-size: map-get($tamañosTexto, modal);
-}
-
-.table {
-	width: 90%;
-	font-size: map-get($tamañosTexto, tabla);
-	color: map-get($coloresTexto, cTabla);
-}
-
-.card {
-	background: linear-gradient(to right, #fff8dc, #e9d527);
-	border: transparent;
-}
-
-.card-text {
-	color: map-get($coloresTexto, cTarjeta);
 }
 
 @media only screen and (min-width: 768px) {
 	body {
 		word-spacing: 2px;
 		font-size: 15px;
-	}
-	h1 {
-		padding-top: 1em;
-		padding-left: 1em;
-		letter-spacing: 0.2em;
-	}
-	h2 {
-		margin-top: 1em;
-	}
-	p {
-		line-height: 2em;
-		margin-top: 1em;
-	}
-	.section__videoLegal {
-		@include videoLegal(80%, 0.8em, 0.8em);
-	}
-	.card {
-		@include tarjeta(600px, 400px, 3.5em);
+		h1 {
+			padding-top: 1em;
+			padding-left: 1em;
+			letter-spacing: 0.2em;
 		}
-	.header__logo {
-		width: 5em;
-		height: 6.5em;
-		padding-top: 20px;
-	}
-	.header__logoWs {
-		width: 7em;
-		margin-left: 41em;
-	}
-	.main__banner {
-		padding-bottom: 1em;
-	}
-	.fab {
-		font-size: map-get($tamañosTexto, iconosPie);
-	}
-	.fas {
-		font-size: map-get($tamañosTexto, iconosPie);
-	}
-	.iconosFooter {
-		a{
-			@include iconosFooter(45px, 40px);
+		h2 {
+			margin-top: 1em;
+		}
+		p {
+			line-height: 2em;
+			margin-top: 1em;
+		}
+		.section__videoLegal {
+			@include videoLegal(80%, 0.8em, 0.8em);
+		}
+		.card {
+			@include tarjeta(600px, 400px, 3.5em);
+			}
+		.header__logo {
+			width: 5em;
+			height: 6.5em;
+			padding-top: 20px;
+		}
+		.header__logoWs {
+			width: 7em;
+			margin-left: 41em;
+		}
+		.main__banner {
+			padding-bottom: 1em;
+		}
+		footer{
+			.fab {
+				font-size: map-get($tamañosTexto, iconosPie);
+			}
+			.fas {
+				font-size: map-get($tamañosTexto, iconosPie);
+			}
+			.iconosFooter {
+				a{
+					@include iconosFooter(45px, 40px);
+				}
+			}
 		}
 	}
 }		
@@ -188,52 +181,50 @@ footer {
 	body {
 		word-spacing: 5px;
 		font-size: 20px;
-	}
-	h1 {
-		padding-top: 1em;
-		letter-spacing: 0.2em;
-	}
-	p {
-		line-height: 2em;
-		margin-top: 1em;
-	}
-	.section__videoLegal {
-		@include videoLegal(90%, 1em, 1em);
-	}
-	footer {
-		letter-spacing: 0.2em;
-	}
-	.footer {
-		li {
-			a {
-				letter-spacing: 8px;
+		h1 {
+			padding-top: 1em;
+			letter-spacing: 0.2em;
+		}
+		p {
+			line-height: 2em;
+			margin-top: 1em;
+		}
+		.section__videoLegal {
+			@include videoLegal(90%, 1em, 1em);
+		}
+		footer {
+			letter-spacing: 0.2em;
+			li {
+				a {
+					letter-spacing: 8px;
+				}
 			}
+			.fab {
+				font-size: map-get($tamañosTexto, iconosPie);
+			}
+			.fas {
+				font-size: map-get($tamañosTexto, iconosPie);
+			}
+			.iconosFooter{
+				a{
+					@include iconosFooter(47px, 42px);	
+				}
+			}	
+		}
+		.card {
+			@include tarjeta(500px, 600px, 3.3em);
+			}
+		.header__logo {
+			padding-top: 0.5em;
+			width: 6em;
+			height: 6.5em;
+		}
+		.header__logoWs {
+			width: 9em;
+			margin-left: 43em;
+		}
+		.main__banner {
+			padding-bottom: 1em;
 		}
 	}
-	.card {
-		@include tarjeta(500px, 600px, 3.3em);
-		}
-	.header__logo {
-		padding-top: 0.5em;
-		width: 6em;
-		height: 6.5em;
-	}
-	.header__logoWs {
-		width: 9em;
-		margin-left: 43em;
-	}
-	.main__banner {
-		padding-bottom: 1em;
-	}
-	.fab {
-		font-size: map-get($tamañosTexto, iconosPie);
-	}
-	.fas {
-		font-size: map-get($tamañosTexto, iconosPie);
-	}
-	.iconosFooter{
-		a{
-			@include iconosFooter(47px, 42px);	
-		}
-	}	
-}
+}	

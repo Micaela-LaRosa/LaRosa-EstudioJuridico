@@ -5,24 +5,24 @@
     background-color: white;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
     border-radius: 5px;
-}
 
-.tituloError{
-    color: black;
-    animation: flash 10s;
-    font-size: map-get($tamañosTexto, error);
-}
+    .tituloError{
+        color: black;
+        animation: flash 10s;
+        font-size: map-get($tamañosTexto, error);
+    }
 
-.imgError{
-    animation: heartBeat 12s;
-}
+    .imgError{
+        animation: heartBeat 12s;
+    }
 
-.botonError{
-    color: #f5c6ed;
-    text-decoration: none;
-    letter-spacing: 2px;
-    &:hover {
-        color:darken(#f5c6ed, 20%)
+    .botonError{
+        color: #f5c6ed;
+        text-decoration: none;
+        letter-spacing: 2px;
+        &:hover {
+            color:darken(#f5c6ed, 20%)
+        }
     }
 }
 
