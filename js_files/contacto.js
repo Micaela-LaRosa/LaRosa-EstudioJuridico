@@ -34,8 +34,7 @@ $(() => {
         <label for="localidad" class="form-label">Localidad</label>
         <input type="text" class="form-control" id="localidad" style="height: 30px;">
     </div>
-    <div class="col-md-5" id="esp">
-        
+    <div class="col-md-5 mt-4" id="esp"> 
     </div>
     <div class="col-md-12">
         <label for="consulta">Consulta:</label>
@@ -55,6 +54,8 @@ $(() => {
     </div>
     </form>
         `);
+
+    formulario.style="color: white; background: linear-gradient(to top, #ee82ee, #5a0b49); margin-left: 3em; box-shadow: 10px 5px 5px grey; width: 90%; font-size: map-get($tamañosTexto, formulario); padding: 1em; border: 1px solid #CCC; border-radius: 0.5em; color: map-get($coloresTexto, cFormulario);";
     
     let especialidades = ['Derecho Laboral', 'Accidentes de Tránsito', 'Sucesiones'];
     let innerHTML = '';
@@ -62,7 +63,7 @@ $(() => {
         innerHTML += `<option value="${especialidad}">${especialidad}</option>`;
     }
     
-    $('#esp').append(`<select id="esp" class="mt-4" style="height: 30px;">${innerHTML}</select>`);
+    $('#esp').append(`<select id="esp" class="mt-4" style="height: 40px;">${innerHTML}</select>`);
     
     $('#esp').change(function(e){ 
         $('#esp').append(`<h2 class="text-2x1">${e.target.value}</h2>`);
