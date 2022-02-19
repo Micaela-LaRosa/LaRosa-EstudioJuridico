@@ -23,3 +23,9 @@ iframe {
 		height: 800px;
 	}
 }
+
+.sucursales{
+	font-size: map-get($tamañosTexto, parrafos);
+	color: map-get($coloresTexto, cParrafos);
+	padding-bottom: 1em;
+	}

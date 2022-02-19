@@ -1,0 +1,29 @@
+[ 
+    {
+        "nombre": "Mortagua & Asociados",
+        "telefono": "4345565",
+        "localidad": "Caballito",
+        "email": "mortagua.business@gmail.com"
+    },
+
+    {
+        "nombre": "La Roca S.R.L.",
+        "telefono": "4345656",
+        "localidad": "Recoleta",
+        "email": "lrsociedades@gmail.com"
+    },
+
+    {
+        "nombre": "Constructora Sudamericana",
+        "telefono": "4556965",
+        "localidad": "Palermo",
+        "email": "csconstrucciones@gmail.com"
+    },
+
+    {
+        "nombre": "WaterLimp",
+        "telefono": "4667789",
+        "localidad": "Ciudad Autónoma de Buenos Aires",
+        "email": "water_limp@gmail.com"
+    } 
+]

@@ -1,0 +1,38 @@
+.conteiner-404{
+    text-align: center;
+    width: 100%;
+    max-width: 950px;
+    background-color: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    border-radius: 5px;
+
+    .tituloError{
+        color: black;
+        animation: flash 10s;
+        font-size: map-get($tamañosTexto, error);
+    }
+
+    .imgError{
+        animation: heartBeat 12s;
+    }
+
+    .botonError{
+        color: #f5c6ed;
+        text-decoration: none;
+        letter-spacing: 2px;
+        &:hover {
+            color:darken(#f5c6ed, 20%)
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .imgError{
+        width: 30%;
+        margin-top: 1em;
+    }
+    .botonError{
+        margin-top: 3em;
+    }
+}
+

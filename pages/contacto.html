@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-sacale-5.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
         <meta name="description" content="SULET abogados es un estudio jurídico con mas de 10 años de experiencia en la resolución de conflictos judiciales de diversa índole. Contamos con un equipo de profesionales ampliamente preparado para actuar en situaciones problemáticas complejas.">
         <meta name="keywords" content="Abogados, laboral, laboralista, sucesiones, testamento, herencia, accidentes de transito, choque, seguro, poliza, derecho, leyes, juicio, poder judicial, conflictos, problemas, soluciones jurídicas, eficiencia, eficacia, confiable, seguro">
         <!-- open graph -->
@@ -83,54 +83,10 @@
         </header>
         <main class="conteiner-fluid m-0 p-0">
             <h2 class="tipoLetra text-center py-3 mb-4 text-decoration-underline">Formulario de contacto:</h2>
-            <form class="main__form row g-3 m-auto mb-5">
-                <div class="col-6">
-                    <label for="nombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" style="height: 30px;">
-                </div>
-                <div class="col-6">
-                    <label for="apellido" class="form-label">Apellido</label>
-                    <input type="text" class="form-control" id="apellido" style="height: 30px;">
-                </div>
-                <div class="col-6 col-md-12">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="email@server.com" style="height: 30px;">
-                </div>
-                <div class="col-6 col-md-12">
-                    <label for="telefono" class="form-label">Telefono</label>
-                    <input type="tel" class="form-control" id="telefono" placeholder="(011)-(telefono)" style="height: 30px;">
-                </div>
-                    <div class="col-md-7">
-                    <label for="localidad" class="form-label">Localidad</label>
-                    <input type="text" class="form-control" id="localidad" style="height: 30px;">
-                </div>
-                <div class="col-md-5">
-                    <label for="especialidad" class="form-label">Especialidad</label>
-                    <select id="especialidad" class="form-select" style="height: 30px;">
-                        <option selected>Derecho Laboral</option>
-                        <option>Accidentes de Tránsito</option>
-                        <option>Sucesiones</option>
-                    </select>
-                </div>
-                <div class="col-md-12">
-                    <label for="consulta">Consulta:</label>
-                    <textarea name="consulta" id="consulta" class="form-control"></textarea>
-                </div>
-                <div class="col-12">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            Acepto brindar Información personal
-                        </label>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="boton btn btn-primary m-2">Enviar</button>
-                    <button type="reset" class="boton btn btn-primary">Limpiar formulario</button>
-                </div>
-            </form>
+            <div id="padre" class="col-12">
+            </div>
             <section class="row">
-                <p class=" col-12 text-center fw-bold mb-5">
+                <p class="col-12 text-center fw-bold m-5">
                     También Podes comunicarte con nosotros al 011 6601-0112
                     <i class="fab fa-whatsapp"></i>
                 </p>
@@ -176,7 +132,7 @@
                     </div>
                     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
                         <span>© 2021 Sulet Abogados |</span>
-                        <button type="button" class="btn btn-light avisoLegal fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Aviso Legal</button>
+                        <button type="button" id="btnAvisoLegal" class="btn btn-light avisoLegal fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Aviso Legal</button>
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
@@ -198,8 +154,12 @@
                     </div>
                 </footer>
             </div>
-        </div>   
+        </div>
+        <!-- Bootstrap 5.1.3 - JS -->   
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="./main.js"></script>
+        <!-- JQuery 3.6.0 - JS -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- js Custom -->
+        <script src="../js_files/contacto.js"></script>
     </body>
 </html>

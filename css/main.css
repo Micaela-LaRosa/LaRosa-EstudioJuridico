@@ -169,28 +169,8 @@ body {
     width: 250px;
     margin: 20px; } }
 
-.main__form {
-  width: 80%;
-  font-size: 0.8em;
-  padding: 1em;
-  border: 1px solid #CCC;
-  border-radius: 0.5em;
-  box-shadow: 10px 5px 5px grey;
-  background: linear-gradient(to top, #ee82ee, #5a0b49);
-  color: #fff8dc; }
-  .main__form textarea {
-    width: 24em;
-    height: 7em; }
-  .main__form .form-control {
-    font-size: 0.9em; }
-  .main__form #especialidad {
-    font-size: 0.9em; }
-  .main__form .boton {
-    font-size: 0.9em; }
-
-@media only screen and (min-width: 768px) {
-  label {
-    display: inline; } }
+.boton {
+  font-size: 0.9em; }
 
 .table {
   width: 90%;
@@ -224,6 +204,11 @@ iframe {
   iframe {
     width: 800px;
     height: 800px; } }
+
+.sucursales {
+  font-size: 0.85em;
+  color: #a3307d;
+  padding-bottom: 1em; }
 
 .conteiner-404 {
   text-align: center;

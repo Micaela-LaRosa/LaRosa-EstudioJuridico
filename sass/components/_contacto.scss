@@ -1,36 +1,17 @@
-.main__form {
-	width: 80%;
-	font-size: map-get($tamañosTexto, formulario);
-	padding: 1em;
-	border: 1px solid #CCC;
-	border-radius: 0.5em;
-	box-shadow: 10px 5px 5px grey;
-	background: linear-gradient(to top, #ee82ee, #5a0b49);
-	color: map-get($coloresTexto, cFormulario);
-   
-	textarea {
-    	width: 24em;
-    	height: 7em;
-	}
 
-	.form-control {
-    	font-size: map-get($tamañosTexto, detallesForm);
-	}
 
-	#especialidad {
-    	font-size: map-get($tamañosTexto, especialidad);
-	}   
+	//.form-control {
+    //	font-size: map-get($tamañosTexto, detallesForm);
+	//}
+
+	//#especialidad {
+    //	font-size: map-get($tamañosTexto, especialidad);
+	//}   
     
 	.boton {
     	font-size: map-get($tamañosTexto, detallesForm);
 	}
-}
 
-@media only screen and (min-width: 768px) {
-	label{
-		display: inline;
-	}
-}
 
 
 

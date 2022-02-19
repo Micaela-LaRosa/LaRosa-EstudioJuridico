@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-sacale-5.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
         <meta name="description" content="SULET abogados es un estudio jurídico con mas de 10 años de experiencia en la resolución de conflictos judiciales de diversa índole. Contamos con un equipo de profesionales ampliamente preparado para actuar en situaciones problemáticas complejas.">
         <meta name="keywords" content="Abogados, laboral, laboralista, sucesiones, testamento, herencia, accidentes de transito, choque, seguro, poliza, derecho, leyes, juicio, poder judicial, conflictos, problemas, soluciones jurídicas, eficiencia, eficacia, confiable, seguro">
         <!-- open graph -->
@@ -83,18 +83,22 @@
         </header>
         <main class="conteiner-fluid m-0 p-0">
             <section class="row">
-                <div class="col-12">
+                <div id="padre" class="col-12">
                     <h2 class="tipoLetra mx-4 text-decoration-underline text-center">¿Cómo llego a SULET Abogados?</h2>
-                    <p class="px-4 py-3">
-                        Nuestras Oficinas en CABA se encuentran ubicadas en la calle  Av. de Mayo 1316 - Ciudad Autónoma de Buenos Aires, República Argentina (CP C1085), en pleno centro de la Capital Federal, zona Tribunales, a metros de la Estación Uruguay de la Línea B de Subte.
+                    <p id="parrafoPresentacion" class="px-4 py-3">
+                        Nuestra <strong>OFICINA PRINCIPAL</strong> se encuentran ubicada en Microcentro en la calle Av. de Mayo 1316 - Ciudad Autónoma de Buenos Aires, República Argentina (CP C1085), zona Tribunales, a metros de la Estación Uruguay de la Línea B de Subte. Contamos con un amplio horario de atención: Lunes a Viernes de 10 a 18hs.
                     </p>
                     <div class="d-flex justify-content-center">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.788458006614!2d-58.387212784892135!3d-34.60951038045797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbe3f3d9b5bf%3A0x7673288c64507df7!2sSULET%20Abogados!5e0!3m2!1ses-419!2sar!4v1632524967241!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                     <p class="px-4 py-3 fw-bold text-center"> 
                         <i class="far fa-handshake"></i>
-                        Horarios: Lunes a Viernes de 10 a 18hs.
-                        Los esperamos con el mejor asesoramiento y un rico café para acompañar el momento!!!
+                        <ul class= "sucursales">Además, tenemos 2 oficinas secundarios, para que nuestros servicios esten siempre a tu alcance:
+                            <li class="sucursal">Recoleta: Uruguay 560. Horario de atención: Lunes a Viernes de 09 a 17hs.</li>
+                            <li class="sucursal">Caballito: Avenida Rivadavia 9133. Horario de atención: Lunes a Viernes de 10 a 17hs.</li>
+                            <li class="sucursal">Palermo: Honduras 1543. Horario de atención: Lunes a Viernes de 10 a 17hs.</li>
+                            Los esperamos con el mejor asesoramiento y un rico café para acompañar el momento!!!
+                        </ul>
                     </p>
                 </div>
             </section>
@@ -193,8 +197,10 @@
                     </div>
                 </footer>
             </div>
-        </div>   
+        </div>
+        <!-- Bootstrap 5.1.3 - JS -->   
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="./main.js"></script>
+        <!-- js Custom -->
+        <script src="../js_files/oficinas.js"></script>
     </body>
 </html>
